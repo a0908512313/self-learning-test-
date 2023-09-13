@@ -9,6 +9,15 @@
     }
 }
 
+@keyframes footer-btn {
+    from {
+        border: 1px gray solid;
+    }
+    to {
+        border: 1px antiquewhite solid;
+    }
+}
+
 * {
     font-family: "Noto+Sans+TC", sans-serif;
     margin: 0;
@@ -93,5 +102,7 @@ footer a {
 }
 
 footer a:hover {
-    border: 1px antiquewhite solid;
+    animation-name: footer-btn;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
 }
