@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-color: white;
 }
 
@@ -20,12 +21,10 @@ button {
     border: none;
     cursor: pointer;
     background-color: antiquewhite;
-    width: 70px;
 }
 
 button:hover {
-    border: 1px gray solid;
-    border-radius: 5px;
+    border: 1px antiquewhite solid;
 }
 
 input {
@@ -35,7 +34,7 @@ input {
 
 input:focus {
     outline: none;
-    border: 1px gray solid;
+    border: 1px antiquewhite solid;
     border-radius: 5px;
 }
 
@@ -47,16 +46,16 @@ input:focus {
     margin-bottom: 25px;
 }
 
-.sent_button {
-    display: flex;
-    justify-content: center;
-}
-
 ::placeholder {
     align-items: center;
     justify-content: center;
     background-color: antiquewhite;
     color: gray;
     text-align: center;
-    letter-spacing: 0.7px;
+    letter-spacing: 1.3px;
+}
+
+#sent-btn {
+    position: absolute;
+    left: 50%;
 }
