@@ -62,6 +62,12 @@ header a:hover {
     color: #222;
 }
 
+header img {
+    position: absolute;
+    left: 5em;
+    height: 60px;
+}
+
 /*----------------------------------------*/
 
 footer {
