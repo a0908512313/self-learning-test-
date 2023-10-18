@@ -52,13 +52,6 @@ h1 {
 
 label {
     text-align: left;
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-
-label {
-    text-align: left;
     font-size: 19px;
     font-weight: 500;
     margin: 10px 0;
@@ -67,37 +60,40 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    width: 368px;
     padding: 8px;
     margin-bottom: 15px;
     border: 2px solid #000;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
-    color: #000;
     background-color: transparent;
     transition: all 0.3s ease;
+    resize: none;
 }
 
-input,
+input::placeholder {
+    color: #222;
+}
+
+input:focus {
+    background-color: gray;
+}
+
+input:focus::placeholder {
+    color: antiquewhite;
+}
+
 textarea::placeholder {
     color: #222;
 }
 
-input,
 textarea:focus {
     background-color: gray;
-    color: antiquewhite;
 }
 
-input,
 textarea:focus::placeholder {
     color: antiquewhite;
-}
-
-.buttons {
-    display: flex;
-    gap: 10px;
 }
 
 button {
@@ -115,4 +111,9 @@ button {
 button:hover {
     background-color: black;
     color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
 }
