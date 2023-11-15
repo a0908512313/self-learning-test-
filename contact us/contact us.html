@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>聯絡我們</title>
-        <link rel="stylesheet" href="contact us.css" />
-    </head>
-    <body>
-        <div class="container">
-            <h1>聯絡我們</h1>
-            <form action="MAILTO:a0908512313@gmail.com">
-                <div class="email">
-                    <label>電子郵件 : </label>
-                    <input
-                        type="email"
-                        placeholder="example@gmail.com"
-                        required
-                    />
-                </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>聯絡我們</title>
+		<link rel="stylesheet" href="contact us.css" />
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+		></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>聯絡我們</h1>
+			<form action="MAILTO:a0908512313@gmail.com">
+				<div class="email">
+					<label>電子郵件 : </label>
+					<input
+						type="email"
+						placeholder="example@gmail.com"
+						required
+					/>
+				</div>
 
-                <div class="comments">
-                    <label>您的意見 : </label>
-                    <textarea
-                        rows="3"
-                        placeholder="Enter Your Comments"
-                    ></textarea>
-                </div>
+				<div class="comments">
+					<label>您的意見 : </label>
+					<textarea
+						rows="3"
+						placeholder="Enter Your Comments"
+					></textarea>
+				</div>
 
-                <div class="buttons">
-                    <button type="submit">送出</button>
-                    <button type="reset">重新填寫</button>
-                </div>
-            </form>
-        </div>
-    </body>
+				<div class="buttons">
+					<button type="submit">送出</button>
+					<button type="reset">重新填寫</button>
+				</div>
+			</form>
+		</div>
+
+		<script src="contact us.css"></script>
+	</body>
 </html>
