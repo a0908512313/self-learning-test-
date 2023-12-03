@@ -5,8 +5,8 @@ var subButton = document.getElementById("submit_button");
 
 subButton.addEventListener("click", function (value) {
 	var templateParams = {
-		name: gmail.value,
-		notes: comments.value,
+		from_name: gmail.value,
+		message: comments.value,
 	};
 
 	emailjs
