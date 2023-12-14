@@ -70,6 +70,15 @@ header img {
 .main-footer {
 	background: #0e9095;
 	display: flex;
+	height: 338px;
+}
+
+.contact-us a {
+	color: white;
+	opacity: 0.7;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
 }
 
 /*----------------------------------------*/
@@ -89,18 +98,6 @@ header img {
 
 .sub-footer p {
 	letter-spacing: 2px;
-}
-
-footer a {
-	color: white;
-	opacity: 0.7;
-	text-decoration: none;
-	padding: 4px 5px;
-	border: 1px gray solid;
-	border-radius: 5px;
-	margin-left: 15px;
-	letter-spacing: 1px;
-	transition: all 0.3s ease;
 }
 
 .sub-footer a:hover {
